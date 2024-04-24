@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    cursor: grab;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    background-color: #706872;
+}
+
+li.dragging {
+    opacity: 0.5;
+}
